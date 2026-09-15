@@ -33,5 +33,5 @@ First release.
 - **A parity test suite** pinned to the shared corpus that the gstinapi.com PHP
   implementation and the Google Sheets add-on also assert against.
 
-[Unreleased]: https://github.com/dlminds/gstin-api/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/dlminds/gstin-api/releases/tag/v0.1.0
+[Unreleased]: https://github.com/dlminds/gstin-api-python/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/dlminds/gstin-api-python/releases/tag/v0.1.0
