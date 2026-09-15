@@ -1,12 +1,12 @@
-# gstin-api — GSTIN validation and GST verification for Python
+# gstin-toolkit — GSTIN validation and GST verification for Python
 
-[![PyPI](https://img.shields.io/pypi/v/gstin-api.svg)](https://pypi.org/project/gstin-api/)
-[![Python versions](https://img.shields.io/pypi/pyversions/gstin-api.svg)](https://pypi.org/project/gstin-api/)
+[![PyPI](https://img.shields.io/pypi/v/gstin-toolkit.svg)](https://pypi.org/project/gstin-toolkit/)
+[![Python versions](https://img.shields.io/pypi/pyversions/gstin-toolkit.svg)](https://pypi.org/project/gstin-toolkit/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](pyproject.toml)
 
 **Validate any Indian GST number offline, then verify it against the government
-register.** `gstin-api` is the official Python library for
+register.** `gstin-toolkit` is the official Python library for
 [gstinapi.com](https://gstinapi.com). It ships two layers, and a lot of projects
 never need the second one:
 
@@ -18,7 +18,7 @@ never need the second one:
 Zero runtime dependencies. Fully typed. Python 3.9+.
 
 ```bash
-pip install gstin-api
+pip install gstin-toolkit
 ```
 
 ```python
@@ -78,7 +78,7 @@ not let you spend a credit on a number that failed step one.
 ## Install
 
 ```bash
-pip install gstin-api
+pip install gstin-toolkit
 ```
 
 No dependencies, so it drops into a Lambda, a Django app or an Airflow DAG
@@ -502,7 +502,7 @@ not catch, and the transposition case it misses — is in
 
 ### How do I validate a GST number in Python?
 
-`pip install gstin-api`, then `is_valid_gstin("27AAACR5055K1Z7")`. It checks the
+`pip install gstin-toolkit`, then `is_valid_gstin("27AAACR5055K1Z7")`. It checks the
 15-character format and the modulus-36 check digit offline, with no API key and
 no network call.
 

@@ -230,7 +230,7 @@ Stage one exists to make stage two cheap. It is not a substitute for it.
 ## An implementation, and how to check yours
 
 ```bash
-pip install gstin-api
+pip install gstin-toolkit
 ```
 
 ```python
@@ -265,7 +265,7 @@ The row that separates a careful implementation from a hasty one is
 `00AAACR5055K1ZN`. Its checksum is genuinely correct, so a validator that
 reports "invalid" is making a different claim from the one it thinks it is
 making. The honest answer is "structurally valid, but `00` is not a state code
-the government issues" — two facts, reported separately. `gstin-api` returns
+the government issues" — two facts, reported separately. `gstin-toolkit` returns
 `valid=True` alongside `state_known=False` for exactly this reason.
 
 That whole table, and thirty-odd more cases, is the committed corpus at
@@ -277,7 +277,7 @@ others. Copy it; that is what it is for.
 
 ## See also
 
-- [`gstin-api` for Python](https://pypi.org/project/gstin-api/) · [for Node.js](https://www.npmjs.com/package/gstin-api)
+- [`gstin-toolkit` for Python](https://pypi.org/project/gstin-toolkit/) · [for Node.js](https://www.npmjs.com/package/gstin-api)
 - [GST verification API docs](https://gstinapi.com/docs) — the register lookup this checksum cannot replace
 - [Free GST number search](https://gstinapi.com/tools/gst-number-search) — one-off checks, no signup
 - [GST state code finder](https://gstinapi.com/tools/gst-state-code-finder) — all 38 codes, plus the SGST/UTGST split

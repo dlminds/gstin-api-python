@@ -1,4 +1,4 @@
-# API reference — `gstin-api` for Python
+# API reference — `gstin-toolkit` for Python
 
 Every export, with its exact signature. For the guided version with recipes, see
 the [README](../README.md).

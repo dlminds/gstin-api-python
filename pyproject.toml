@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "gstin-api"
+name = "gstin-toolkit"
 dynamic = ["version"]
 description = "GSTIN validation and GST number verification for Python — offline checksum validation plus a client for the gstinapi.com GST verification API."
 readme = "README.md"
